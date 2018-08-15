@@ -7,7 +7,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.model_selection import cross_val_score
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('ibm.csv')
+df = pd.read_csv('data.csv')
 
 y_data = df['price']
 x_data = df.drop('price',axis=1)
