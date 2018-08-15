@@ -5,7 +5,7 @@ from io import StringIO
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('ibm.csv')
+df = pd.read_csv('data.csv')
 
 missing_data = df.isnull()
 
